@@ -1,11 +1,10 @@
-package tests.knygos.user;
+package tests.knygos.lt;
 
 import com.github.javafaker.Faker;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.knygos.home.Search;
-import pages.knygos.user.LogIn;
+import pages.knygos.lt.LogIn;
 import tests.BaseTest;
 
 import java.util.Random;
@@ -17,8 +16,8 @@ public class Registration extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        Search.open();
-        Search.acceptCookies();
+        pages.knygos.lt.Registration.open();
+        pages.knygos.lt.Registration.acceptCookies();
     }
 
     @Test
@@ -37,9 +36,9 @@ public class Registration extends BaseTest {
         String lastName = faker.name().lastName();
         String phoneNumber = String.valueOf(randomIntForphone);
 
-        LogIn.clickUserAccount();
-        pages.knygos.user.Registration.clickSignIn();
-        pages.knygos.user.Registration.verifyAllRegistrationFields(
+        pages.knygos.lt.Registration.clickUserAccount();
+        pages.knygos.lt.Registration.clickSignIn();
+        pages.knygos.lt.Registration.verifyAllRegistrationFields(
                 firstName,
                 lastName,
                 phoneNumber,
@@ -47,8 +46,8 @@ public class Registration extends BaseTest {
                 password,
                 confirmPassword
         );
-        pages.knygos.user.Registration.clickSubmitRegistration();
-        String actualResult = pages.knygos.user.Registration.getRegistrationStatus();
+        pages.knygos.lt.Registration.clickSubmitRegistration();
+        String actualResult = pages.knygos.lt.Registration.getRegistrationStatus();
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -56,19 +55,19 @@ public class Registration extends BaseTest {
     public static void testCreateNewAccountWithExistingEmail() {
         Faker faker = new Faker();
 
-        int randomIntForphone = ThreadLocalRandom.current().nextInt(60000000, 69999999);
+        int randomPhoneNumber = ThreadLocalRandom.current().nextInt(60000000, 69999999);
 
         String password = "Java123123123";
         String confirmPassword = "Java123123123";
         String emailAddress = "pashaduniak@gmail.com";
         String firstName = faker.name().firstName();
         String lastName = faker.name().lastName();
-        String phoneNumber = String.valueOf(randomIntForphone);
+        String phoneNumber = String.valueOf(randomPhoneNumber);
         String expectedResult = "https://www.knygos.lt/cart/registration";
 
         LogIn.clickUserAccount();
-        pages.knygos.user.Registration.clickSignIn();
-        pages.knygos.user.Registration.verifyAllRegistrationFields(
+        pages.knygos.lt.Registration.clickSignIn();
+        pages.knygos.lt.Registration.verifyAllRegistrationFields(
                 firstName,
                 lastName,
                 phoneNumber,
@@ -76,8 +75,8 @@ public class Registration extends BaseTest {
                 password,
                 confirmPassword
         );
-        pages.knygos.user.Registration.clickSubmitRegistration();
-        String actualResult = pages.knygos.user.Registration.getRegistrationStatus();
+        pages.knygos.lt.Registration.clickSubmitRegistration();
+        String actualResult = pages.knygos.lt.Registration.getRegistrationStatus();
         Assert.assertEquals(actualResult, expectedResult);
     }
 }

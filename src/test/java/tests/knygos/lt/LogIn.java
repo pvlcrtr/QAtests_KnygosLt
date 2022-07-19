@@ -1,9 +1,8 @@
-package tests.knygos.user;
+package tests.knygos.lt;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.knygos.home.Search;
 import tests.BaseTest;
 
 public class LogIn extends BaseTest {
@@ -11,8 +10,8 @@ public class LogIn extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        Search.open();
-        Search.acceptCookies();
+        pages.knygos.lt.LogIn.open();
+        pages.knygos.lt.LogIn.acceptCookies();
     }
 
     @Test
@@ -20,11 +19,11 @@ public class LogIn extends BaseTest {
         String emailAdress = "sada@gmail.com";
         String password = "aasdada";
         String expectedResult = "Klaidingi duomenys.";
-        pages.knygos.user.LogIn.clickUserAccount();
-        pages.knygos.user.LogIn.sendKeysToEmailAdressField(emailAdress);
-        pages.knygos.user.LogIn.sendKeysToPasswordField(password);
-        pages.knygos.user.LogIn.clickLogIn();
-        String actualResult = pages.knygos.user.LogIn.readLogInStatus();
+        pages.knygos.lt.LogIn.clickUserAccount();
+        pages.knygos.lt.LogIn.sendKeysToEmailAdressField(emailAdress);
+        pages.knygos.lt.LogIn.sendKeysToPasswordField(password);
+        pages.knygos.lt.LogIn.clickLogIn();
+        String actualResult = pages.knygos.lt.LogIn.readLogInStatus();
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -33,11 +32,12 @@ public class LogIn extends BaseTest {
         String emailAdress = "pashaduniak@gmail.com";
         String password = "Knygos_123";
         String expectedResult = "https://www.knygos.lt/";
-        pages.knygos.user.LogIn.clickUserAccount();
-        pages.knygos.user.LogIn.sendKeysToEmailAdressField(emailAdress);
-        pages.knygos.user.LogIn.sendKeysToPasswordField(password);
-        pages.knygos.user.LogIn.clickLogIn();
-        String actualResult = utils.Driver.getDriver().getCurrentUrl();
+        pages.knygos.lt.LogIn.clickUserAccount();
+        pages.knygos.lt.LogIn.sendKeysToEmailAdressField(emailAdress);
+        pages.knygos.lt.LogIn.sendKeysToPasswordField(password);
+        pages.knygos.lt.LogIn.clickLogIn();
+        //String actualResult = utils.Driver.getDriver().getCurrentUrl();
+        String actualResult = pages.knygos.lt.LogIn.getLogInStatus();
         Assert.assertEquals(actualResult, expectedResult);
     }
 }
