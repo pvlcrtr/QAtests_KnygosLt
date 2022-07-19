@@ -10,6 +10,7 @@ Reference: https://www.knygos.lt/
 * Creating new account with invalid data
 * LogIn to existing account with valid data
 * LogIn to existing account with invalid data
+* Test Logout function after login
 * Test search function
 * Test search products by category
 * Test adding products to cart
