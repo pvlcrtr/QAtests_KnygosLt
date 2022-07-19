@@ -1,8 +1,7 @@
 # knygos.lt Automation Test
 
-```bash
 Reference: https://www.knygos.lt/
-```
+
 ## Description:
 #### Automated tests for three chosen scenarios for [knygos.lt](https://www.knygos.lt/):
 ```bash
@@ -27,7 +26,7 @@ Reference: https://www.knygos.lt/
 * testNg
 * Selenium
 * Webdriver manager
-* Faker
+* javafaker
 ```
 
 # Test Scenarios:
