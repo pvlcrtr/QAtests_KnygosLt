@@ -38,7 +38,6 @@ public class Common {
 
     public static void clickElementByAction(By locator) {
         WebElement element = getElement(locator);
-
         Actions action = new Actions(Driver.getDriver());
         action.moveToElement(element);
         action.click();
@@ -47,26 +46,14 @@ public class Common {
 
     public static void sendKeysByAction(By locator, String keys) {
         WebElement element = getElement(locator);
-
         Actions action = new Actions(Driver.getDriver());
         action.moveToElement(element);
         action.click();
         action.sendKeys(keys);
         action.build().perform();
-
-
-    }
-
-    public static void doubleClickByAction(By locator) {
-        WebElement element = getElement(locator);
-
-        Actions action = new Actions(Driver.getDriver());
-        action.moveToElement(element);
-        action.doubleClick(element);
-        action.perform();
     }
 
     public static String getUrl() {
-        return Driver.getDriver().getCurrentUrl();
+        return utils.Driver.getDriver().getCurrentUrl();
     }
 }

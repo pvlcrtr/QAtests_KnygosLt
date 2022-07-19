@@ -4,27 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/LogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/cart/PurchaseBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/LogIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/PurchaseBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
+    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Create LogIn and Registration tests">
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/TopBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/TopBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/cart/PurchaseBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/PurchaseBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/home/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/cart/PurchaseBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/PurchaseBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/home/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,25 +46,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Search.testSearchFunction">
-    <configuration name="LogIn.testLoginWithInvalidData" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavel Duniak\JavaProjektai\BaigiamasisKnygoslt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml">
+    <configuration name="C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BaigiamasisKnygoslt" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogIn.testLoginWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.knygos.cart.*" />
+          <option name="PATTERN" value="tests.knygos.lt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.user.LogIn" />
-      <option name="METHOD_NAME" value="testLoginWithInvalidData" />
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.LogIn" />
+      <option name="METHOD_NAME" value="testLoginWithValidData" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,17 +88,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurchaseBasket.testAddProductToPurchaseBasket" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TopBooks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.knygos.cart.*" />
+          <option name="PATTERN" value="tests.knygos.lt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.cart.PurchaseBasket" />
-      <option name="METHOD_NAME" value="testAddProductToPurchaseBasket" />
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.TopBooks" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopBooks.testSearchByCategoryTopBooksForKids" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BaigiamasisKnygoslt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.knygos.lt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.TopBooks" />
+      <option name="METHOD_NAME" value="testSearchByCategoryTopBooksForKids" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,52 +123,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Registration.testCreateNewAccountWithExistingEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TopBooks.testSearchFunction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.knygos.cart.*" />
+          <option name="PATTERN" value="tests.knygos.lt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.user.Registration" />
-      <option name="METHOD_NAME" value="testCreateNewAccountWithExistingEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Registration.testCreateNewAccountWithNonExistingEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BaigiamasisKnygoslt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.knygos.cart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.user.Registration" />
-      <option name="METHOD_NAME" value="testCreateNewAccountWithNonExistingEmail" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Search.testSearchFunction" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BaigiamasisKnygoslt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.knygos.home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos.home" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.home.Search" />
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.TopBooks" />
       <option name="METHOD_NAME" value="testSearchFunction" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -150,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Search.testSearchFunction" />
-        <item itemvalue="TestNG.LogIn.testLoginWithInvalidData" />
-        <item itemvalue="TestNG.Registration.testCreateNewAccountWithExistingEmail" />
-        <item itemvalue="TestNG.Registration.testCreateNewAccountWithNonExistingEmail" />
-        <item itemvalue="TestNG.PurchaseBasket.testAddProductToPurchaseBasket" />
+        <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
+        <item itemvalue="TestNG.TopBooks.testSearchByCategoryTopBooksForKids" />
+        <item itemvalue="TestNG.TopBooks.testSearchFunction" />
+        <item itemvalue="TestNG.LogIn.testLoginWithValidData" />
+        <item itemvalue="TestNG.TopBooks" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +160,21 @@
       <option name="presentableId" value="Default" />
       <updated>1658171601079</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create pages and relocate clases">
+      <created>1658233368476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658233368476</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create LogIn and Registration tests">
+      <created>1658238874873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658238874873</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,5 +187,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create pages and relocate clases" />
+    <MESSAGE value="Create LogIn and Registration tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create LogIn and Registration tests" />
   </component>
 </project>

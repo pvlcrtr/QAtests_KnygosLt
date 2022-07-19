@@ -1,9 +1,8 @@
-package tests.knygos.cart;
+package tests.knygos.lt;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.knygos.home.Search;
 import tests.BaseTest;
 
 public class PurchaseBasket extends BaseTest {
@@ -11,8 +10,8 @@ public class PurchaseBasket extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        Search.open();
-        Search.acceptCookies();
+        pages.knygos.lt.PurchaseBasket.open();
+        pages.knygos.lt.PurchaseBasket.acceptCookies();
     }
 
     @Test
@@ -20,10 +19,10 @@ public class PurchaseBasket extends BaseTest {
         String searchValue = "Java";
         String expectedResult = "179,28 €";
 
-        Search.sendKeysToSearchField(searchValue);
-        Search.clickSearch();
-        pages.knygos.cart.PurchaseBasket.selectBooks();
-        String actualResult = pages.knygos.cart.PurchaseBasket.getBasketTotal();
+        pages.knygos.lt.PurchaseBasket.sendKeysToSearchField(searchValue);
+        pages.knygos.lt.PurchaseBasket.clickSearch();
+        pages.knygos.lt.PurchaseBasket.selectAndAddBooksToBasket();
+        String actualResult = pages.knygos.lt.PurchaseBasket.readBasketTotal();
         Assert.assertEquals(actualResult, expectedResult);
     }
 }

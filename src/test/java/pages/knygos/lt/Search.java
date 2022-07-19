@@ -1,4 +1,4 @@
-package pages.knygos.home;
+package pages.knygos.lt;
 
 import pages.Common;
 import pages.Locators;
@@ -15,10 +15,14 @@ public class Search {
     public static void sendKeysToSearchField(String keys) {
         Common.sendKeysByAction(Locators.knygos.Search.fieldSearch, keys);
     }
-    public static void clickSearch(){
+
+    public static void clickSearch() {
         Common.clickElement(Locators.knygos.Search.buttonSearch);
     }
-    public static String readSearchResult(){
+
+    public static String readSearchResult() {
         return Common.getElementText(Locators.knygos.Search.fieldMessageOfSearch);
     }
+
+
 }

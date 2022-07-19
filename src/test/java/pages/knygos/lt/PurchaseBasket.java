@@ -1,4 +1,4 @@
-package pages.knygos.cart;
+package pages.knygos.lt;
 
 import org.testng.Assert;
 import pages.Common;
@@ -7,10 +7,7 @@ import pages.Locators;
 public class PurchaseBasket {
 
     public static void open() {
-
         pages.Common.openUrl("https://www.knygos.lt/");
-
-
     }
 
     public static void acceptCookies() {
@@ -25,7 +22,7 @@ public class PurchaseBasket {
         Common.clickElement(Locators.knygos.Search.buttonSearch);
     }
 
-    public static void selectBooks() {
+    public static void selectAndAddBooksToBasket() {
 
         try {
             Common.clickElementByAction(Locators.knygos.PurchaseBasket.buttonAddToBasketFirstBook);
@@ -41,8 +38,7 @@ public class PurchaseBasket {
         }
     }
 
-
-    public static String getBasketTotal() {
+    public static String readBasketTotal() {
         return Common.getElementText(Locators.knygos.PurchaseBasket.fieldBasketTotal);
     }
 }

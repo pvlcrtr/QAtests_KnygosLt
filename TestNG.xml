@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Knygos.lt" parallel="methods" thread-count="4">
+    <test name="Regression">
+        <classes>
+            <class name="tests.knygos.lt.TopBooks"/>
+            <class name="tests.knygos.lt.PurchaseBasket"/>
+            <class name="tests.knygos.lt.LogIn"/>
+            <class name="tests.knygos.lt.Registration"/>
+            <class name="tests.knygos.lt.Search"/>
+
+        </classes>
+    </test>
+</suite>
