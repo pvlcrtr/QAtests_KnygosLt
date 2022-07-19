@@ -86,3 +86,13 @@ Reference: https://www.knygos.lt/
 * Click on Top Category 
 * Check if text appears in results
 ```
+### 6. Add books to cart
+```bash
+* Set text to search field
+* Click search 
+* Click add book to cart 
+* Click continue shopping  
+* Click add another book to cart
+* Click review a cart
+* Check if two books added 
+```

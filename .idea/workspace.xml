@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Add README.md">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Logout.java" afterDir="false" />
+    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Reformat README.md">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/FavouriteList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/FavouriteList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pavel Duniak\JavaProjektai\BaigiamasisKnygoslt" />
@@ -184,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658242117712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Logout and Reformat code">
+      <created>1658242876688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658242876688</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Reformat README.md">
+      <created>1658243056231</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658243056231</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +218,8 @@
     <MESSAGE value="Create TopBooks tests" />
     <MESSAGE value="Create PurchaseBasket class, Test.ng, format code" />
     <MESSAGE value="Add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
+    <MESSAGE value="Add Logout and Reformat code" />
+    <MESSAGE value="Reformat README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat README.md" />
   </component>
 </project>
