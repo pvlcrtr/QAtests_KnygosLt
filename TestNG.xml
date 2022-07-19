@@ -8,7 +8,7 @@
             <class name="tests.knygos.lt.LogIn"/>
             <class name="tests.knygos.lt.Registration"/>
             <class name="tests.knygos.lt.Search"/>
-
+            <class name="tests.knygos.lt.Logout"/>
         </classes>
     </test>
 </suite>
