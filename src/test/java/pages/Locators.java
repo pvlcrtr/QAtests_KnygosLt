@@ -20,6 +20,15 @@ public class Locators {
             public static By buttonLogIn = By.xpath("//input[@type='submit' and @value='Prisijungti']");
             public static By fieldLogInStatus = By.xpath("//div[@class='alert alert-danger' and @role='alert']");
         }
+        public static class Logout {
+
+            public static By buttonUserAccount = By.xpath("(//span[@class='text d-none d-lg-block'])[1]");
+            public static By fieldEmailAddress = By.xpath("//input[@id='emailInput']");
+            public static By fieldPassword = By.xpath("//input[@id='passwordInput']");
+            public static By buttonLogIn = By.xpath("//input[@type='submit' and @value='Prisijungti']");
+            public static By buttonHomePage = By.xpath("//div[@id='logo']");
+            public static By buttonLogout = By.xpath("(//a[@href='https://www.knygos.lt/lt/pirkejas/atsijungti'])[2]");
+        }
 
         public static class PurchaseBasket {
 
