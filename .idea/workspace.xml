@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Create LogIn and Registration tests">
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/TopBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/TopBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Create PurchaseBasket class, Test.ng, format code">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rasd.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/cart/PurchaseBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/PurchaseBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/home/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/cart/PurchaseBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/PurchaseBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/home/Search.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658238874873</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create TopBooks tests">
+      <created>1658239016024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658239016024</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create PurchaseBasket class, Test.ng, format code">
+      <created>1658239089349</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658239089349</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +192,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create pages and relocate clases" />
     <MESSAGE value="Create LogIn and Registration tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create LogIn and Registration tests" />
+    <MESSAGE value="Create TopBooks tests" />
+    <MESSAGE value="Create PurchaseBasket class, Test.ng, format code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create PurchaseBasket class, Test.ng, format code" />
   </component>
 </project>
