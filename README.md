@@ -47,7 +47,7 @@ Reference: https://www.knygos.lt/
 * Verify all registration fields
 * Click Submit
 
-Expected result: User shouldn not Sign in
+Expected result: User shouldn not create account with invalid data
 Actual result: As expected
 ```
 
