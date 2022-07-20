@@ -30,5 +30,4 @@ public class TopBooks extends BaseTest {
         String actualResult = pages.knygos.lt.TopBooks.readSearchResult();
         Assert.assertTrue(actualResult.contains(category));
     }
-
 }

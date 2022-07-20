@@ -36,7 +36,6 @@ public class LogIn extends BaseTest {
         pages.knygos.lt.LogIn.sendKeysToEmailAdressField(emailAdress);
         pages.knygos.lt.LogIn.sendKeysToPasswordField(password);
         pages.knygos.lt.LogIn.clickLogIn();
-        //String actualResult = utils.Driver.getDriver().getCurrentUrl();
         String actualResult = pages.knygos.lt.LogIn.getLogInStatus();
         Assert.assertEquals(actualResult, expectedResult);
     }

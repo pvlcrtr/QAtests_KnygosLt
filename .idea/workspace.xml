@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Reformat README.md">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/FavouriteList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/FavouriteList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/FavouriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/FavouriteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/FavouriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/FavouriteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +54,7 @@
       <recent name="C:\Users\Pavel Duniak\JavaProjektai\BaigiamasisKnygoslt" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Logout.testLogout">
+  <component name="RunManager" selected="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml">
     <configuration name="C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -58,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogIn.testLoginWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FavouriteList.testAddToWishListFunction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +74,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.LogIn" />
-      <option name="METHOD_NAME" value="testLoginWithValidData" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.FavouriteList" />
+      <option name="METHOD_NAME" value="testAddToWishListFunction" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopBooks.testSearchByCategoryTopBooksForKids" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Registration.testCreateNewAccountWithExistingEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +110,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.TopBooks" />
-      <option name="METHOD_NAME" value="testSearchByCategoryTopBooksForKids" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Registration" />
+      <option name="METHOD_NAME" value="testCreateNewAccountWithExistingEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopBooks.testSearchFunction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Registration.testCreateNewAccountWithNonExistingEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.TopBooks" />
-      <option name="METHOD_NAME" value="testSearchFunction" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Registration" />
+      <option name="METHOD_NAME" value="testCreateNewAccountWithNonExistingEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Logout.testLogout" />
         <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
-        <item itemvalue="TestNG.TopBooks.testSearchByCategoryTopBooksForKids" />
-        <item itemvalue="TestNG.TopBooks.testSearchFunction" />
-        <item itemvalue="TestNG.LogIn.testLoginWithValidData" />
+        <item itemvalue="TestNG.FavouriteList.testAddToWishListFunction" />
+        <item itemvalue="TestNG.Registration.testCreateNewAccountWithExistingEmail" />
+        <item itemvalue="TestNG.Registration.testCreateNewAccountWithNonExistingEmail" />
+        <item itemvalue="TestNG.Logout.testLogout" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658243056231</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Reformat README.md">
+      <created>1658253795026</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658253795026</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reformat README.md">
+      <created>1658253886557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658253886557</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

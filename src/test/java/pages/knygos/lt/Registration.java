@@ -21,6 +21,18 @@ public class Registration {
         Common.clickElement(Locators.knygos.Registration.buttonRegistration);
     }
 
+    public static String getRandomPhoneNumber() {
+        return Common.generatePhoneNumber();
+    }
+
+    public static String getRandomFirstName() {
+        return Common.generateFirstName();
+    }
+
+    public static String getRandomLastName() {
+        return Common.generateLastName();
+    }
+
     public static void verifyAllRegistrationFields(
             String firstName,
             String lastName,
@@ -35,6 +47,9 @@ public class Registration {
         Common.sendKeysByAction(Locators.knygos.Registration.fieldEmailAdress, emailAdress);
         Common.sendKeysByAction(Locators.knygos.Registration.fieldPassword, password);
         Common.sendKeysByAction(Locators.knygos.Registration.fieldConfirmPassword, confirmPassword);
+    }
+
+    public static void clickConfirmPrivacyPolitics() {
         Common.clickElementByAction(Locators.knygos.Registration.buttonAcceptPrivacyPolicy);
     }
 

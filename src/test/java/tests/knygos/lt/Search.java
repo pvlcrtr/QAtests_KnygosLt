@@ -14,6 +14,7 @@ public class Search extends BaseTest {
         pages.knygos.lt.Search.open();
         pages.knygos.lt.Search.acceptCookies();
     }
+
     @DataProvider(name = "author")
     public Object[][] radioButtonGenderDataProvider() {
         return new Object[][]{

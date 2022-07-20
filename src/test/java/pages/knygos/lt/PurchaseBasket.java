@@ -1,6 +1,5 @@
 package pages.knygos.lt;
 
-import org.testng.Assert;
 import pages.Common;
 import pages.Locators;
 
