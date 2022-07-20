@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Reformat README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/FavouriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/FavouriteList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/FavouriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/FavouriteList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
-    </list>
+    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Reformat README.md, Add new test cases" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +53,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavouriteList.testAddToWishListFunction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogOut.testLogout" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <extension name="coverage">
         <pattern>
@@ -74,25 +62,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.FavouriteList" />
-      <option name="METHOD_NAME" value="testAddToWishListFunction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Logout.testLogout" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BaigiamasisKnygoslt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.knygos.lt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Logout" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.LogOut" />
       <option name="METHOD_NAME" value="testLogout" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -137,13 +107,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WishList.testAddToWishListFunction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BaigiamasisKnygoslt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.knygos.lt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.WishList" />
+      <option name="METHOD_NAME" value="testAddToWishListFunction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
-        <item itemvalue="TestNG.FavouriteList.testAddToWishListFunction" />
+        <item itemvalue="TestNG.WishList.testAddToWishListFunction" />
         <item itemvalue="TestNG.Registration.testCreateNewAccountWithExistingEmail" />
         <item itemvalue="TestNG.Registration.testCreateNewAccountWithNonExistingEmail" />
-        <item itemvalue="TestNG.Logout.testLogout" />
+        <item itemvalue="TestNG.LogOut.testLogout" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658253886557</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Reformat README.md, Add new test cases">
+      <created>1658355123607</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658355123607</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +236,7 @@
     <MESSAGE value="Add README.md" />
     <MESSAGE value="Add Logout and Reformat code" />
     <MESSAGE value="Reformat README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat README.md" />
+    <MESSAGE value="Reformat README.md, Add new test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat README.md, Add new test cases" />
   </component>
 </project>
