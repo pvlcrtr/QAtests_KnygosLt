@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Add assertEquals to testLogout">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/WishList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Rename dataProvider in Search class, refactor README">
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/LogOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/PurchaseBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/PurchaseBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/TopBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/TopBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/WishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/WishList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/LogOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/PurchaseBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/PurchaseBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/TopBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/TopBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/WishList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +44,7 @@
       <recent name="C:\Users\Pavel Duniak\JavaProjektai\BaigiamasisKnygoslt" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Search.testSearchFunction">
+  <component name="RunManager" selected="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml">
     <configuration name="C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -145,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
         <item itemvalue="TestNG.Search.testSearchFunction" />
         <item itemvalue="TestNG.LogOut.testLogout" />
         <item itemvalue="TestNG.WishList.testAddToWishListFunction" />
-        <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
         <item itemvalue="TestNG.Registration.testCreateNewAccountWithExistingEmail" />
       </list>
     </recent_temporary>
@@ -267,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658391003881</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Rename dataProvider in Search class, refactor README">
+      <created>1658392627486</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658392627486</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +283,7 @@
     <MESSAGE value="Reformat README.md, Add new test cases" />
     <MESSAGE value="Repair test" />
     <MESSAGE value="Add assertEquals to testLogout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add assertEquals to testLogout" />
+    <MESSAGE value="Rename dataProvider in Search class, refactor README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename dataProvider in Search class, refactor README" />
   </component>
 </project>
