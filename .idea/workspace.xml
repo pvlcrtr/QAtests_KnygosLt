@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Repair test">
+    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Add assertEquals to testLogout">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/WishList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/PurchaseBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/PurchaseBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/TopBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/TopBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/WishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygosLt/WishList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/PurchaseBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/PurchaseBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/TopBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygosLt/TopBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/WishList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +60,7 @@
       <recent name="C:\Users\Pavel Duniak\JavaProjektai\BaigiamasisKnygoslt" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LogOut.testLogout">
+  <component name="RunManager" selected="TestNG.Search.testSearchFunction">
     <configuration name="C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -93,17 +107,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Registration.testCreateNewAccountWithNonExistingEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Search.testSearchFunction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.knygos.lt.*" />
+          <option name="PATTERN" value="tests.knygosLt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.knygos.lt" />
-      <option name="MAIN_CLASS_NAME" value="tests.knygos.lt.Registration" />
-      <option name="METHOD_NAME" value="testCreateNewAccountWithNonExistingEmail" />
+      <option name="PACKAGE_NAME" value="tests.knygosLt" />
+      <option name="MAIN_CLASS_NAME" value="tests.knygosLt.Search" />
+      <option name="METHOD_NAME" value="testSearchFunction" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Search.testSearchFunction" />
         <item itemvalue="TestNG.LogOut.testLogout" />
         <item itemvalue="TestNG.WishList.testAddToWishListFunction" />
         <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
         <item itemvalue="TestNG.Registration.testCreateNewAccountWithExistingEmail" />
-        <item itemvalue="TestNG.Registration.testCreateNewAccountWithNonExistingEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658389657828</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add assertEquals to testLogout">
+      <created>1658391003881</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658391003881</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +291,7 @@
     <MESSAGE value="Reformat README.md" />
     <MESSAGE value="Reformat README.md, Add new test cases" />
     <MESSAGE value="Repair test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repair test" />
+    <MESSAGE value="Add assertEquals to testLogout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assertEquals to testLogout" />
   </component>
 </project>

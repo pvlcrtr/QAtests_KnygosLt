@@ -1,9 +1,9 @@
-package pages.knygos.lt;
+package pages.knygosLt;
 
 import pages.Common;
 import pages.Locators;
 
-public class WishList extends pages.knygos.lt.LogIn {
+public class WishList extends LogIn {
     public static void open() {
         pages.Common.openUrl("https://www.knygos.lt/");
     }

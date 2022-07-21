@@ -1,4 +1,4 @@
-package tests.knygos.lt;
+package tests.knygosLt;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -10,8 +10,8 @@ public class LogIn extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        pages.knygos.lt.LogIn.open();
-        pages.knygos.lt.LogIn.acceptCookies();
+        pages.knygosLt.LogIn.open();
+        pages.knygosLt.LogIn.acceptCookies();
     }
 
     @Test
@@ -19,11 +19,11 @@ public class LogIn extends BaseTest {
         String emailAdress = "sada@gmail.com";
         String password = "aasdada";
         String expectedResult = "Klaidingi duomenys.";
-        pages.knygos.lt.LogIn.clickUserAccount();
-        pages.knygos.lt.LogIn.sendKeysToEmailAdressField(emailAdress);
-        pages.knygos.lt.LogIn.sendKeysToPasswordField(password);
-        pages.knygos.lt.LogIn.clickLogIn();
-        String actualResult = pages.knygos.lt.LogIn.readLogInStatus();
+        pages.knygosLt.LogIn.clickUserAccount();
+        pages.knygosLt.LogIn.sendKeysToEmailAdressField(emailAdress);
+        pages.knygosLt.LogIn.sendKeysToPasswordField(password);
+        pages.knygosLt.LogIn.clickLogIn();
+        String actualResult = pages.knygosLt.LogIn.readLogInStatus();
         Assert.assertEquals(actualResult, expectedResult);
     }
 
@@ -32,11 +32,11 @@ public class LogIn extends BaseTest {
         String emailAdress = "pashaduniak@gmail.com";
         String password = "Knygos_123";
         String expectedResult = "https://www.knygos.lt/";
-        pages.knygos.lt.LogIn.clickUserAccount();
-        pages.knygos.lt.LogIn.sendKeysToEmailAdressField(emailAdress);
-        pages.knygos.lt.LogIn.sendKeysToPasswordField(password);
-        pages.knygos.lt.LogIn.clickLogIn();
-        String actualResult = pages.knygos.lt.LogIn.getLogInStatus();
+        pages.knygosLt.LogIn.clickUserAccount();
+        pages.knygosLt.LogIn.sendKeysToEmailAdressField(emailAdress);
+        pages.knygosLt.LogIn.sendKeysToPasswordField(password);
+        pages.knygosLt.LogIn.clickLogIn();
+        String actualResult = pages.knygosLt.LogIn.getLogInStatus();
         Assert.assertEquals(actualResult, expectedResult);
     }
 }

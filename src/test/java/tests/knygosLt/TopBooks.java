@@ -1,4 +1,4 @@
-package tests.knygos.lt;
+package tests.knygosLt;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -11,8 +11,8 @@ public class TopBooks extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        pages.knygos.lt.TopBooks.open();
-        pages.knygos.lt.TopBooks.acceptCookies();
+        pages.knygosLt.TopBooks.open();
+        pages.knygosLt.TopBooks.acceptCookies();
     }
 
     @DataProvider(name = "booksCategory")
@@ -25,9 +25,9 @@ public class TopBooks extends BaseTest {
 
     @Test(dataProvider = "booksCategory")
     public static void testSearchByCategoryTopBooksForKids(String category) {
-        pages.knygos.lt.TopBooks.clickTopBooksCategory();
-        pages.knygos.lt.TopBooks.selectCategory(category);
-        String actualResult = pages.knygos.lt.TopBooks.readSearchResult();
+        pages.knygosLt.TopBooks.clickTopBooksCategory();
+        pages.knygosLt.TopBooks.selectCategory(category);
+        String actualResult = pages.knygosLt.TopBooks.readSearchResult();
         Assert.assertTrue(actualResult.contains(category));
     }
 }

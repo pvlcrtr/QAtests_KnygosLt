@@ -1,4 +1,4 @@
-package pages.knygos.lt;
+package pages.knygosLt;
 
 import pages.Common;
 import pages.Locators;

@@ -3,13 +3,13 @@
 <suite name="Testing Knygos.lt" parallel="methods" thread-count="4">
     <test name="Regression">
         <classes>
-            <class name="tests.knygos.lt.TopBooks"/>
-            <class name="tests.knygos.lt.PurchaseBasket"/>
-            <class name="tests.knygos.lt.LogIn"/>
-            <class name="tests.knygos.lt.Registration"/>
-            <class name="tests.knygos.lt.Search"/>
-            <class name="tests.knygos.lt.LogOut"/>
-            <class name="tests.knygos.lt.WishList"/>
+            <class name="TopBooks"/>
+            <class name="PurchaseBasket"/>
+            <class name="LogIn"/>
+            <class name="Registration"/>
+            <class name="Search"/>
+            <class name="LogOut"/>
+            <class name="WishList"/>
         </classes>
     </test>
 </suite>

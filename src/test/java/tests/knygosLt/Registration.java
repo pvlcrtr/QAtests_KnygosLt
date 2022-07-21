@@ -1,9 +1,9 @@
-package tests.knygos.lt;
+package tests.knygosLt;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.knygos.lt.LogIn;
+import pages.knygosLt.LogIn;
 import tests.BaseTest;
 
 public class Registration extends BaseTest {
@@ -12,8 +12,8 @@ public class Registration extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        pages.knygos.lt.Registration.open();
-        pages.knygos.lt.Registration.acceptCookies();
+        pages.knygosLt.Registration.open();
+        pages.knygosLt.Registration.acceptCookies();
     }
 
     @Test
@@ -24,13 +24,13 @@ public class Registration extends BaseTest {
         String password = "Java123123123";
         String confirmPassword = "Java123123123";
         String emailAddress = "pashaduniak@gmail.com";
-        String firstName = pages.knygos.lt.Registration.getRandomFirstName();
-        String lastName = pages.knygos.lt.Registration.getRandomLastName();
-        String phoneNumber = pages.knygos.lt.Registration.getRandomPhoneNumber();
+        String firstName = pages.knygosLt.Registration.getRandomFirstName();
+        String lastName = pages.knygosLt.Registration.getRandomLastName();
+        String phoneNumber = pages.knygosLt.Registration.getRandomPhoneNumber();
 
         LogIn.clickUserAccount();
-        pages.knygos.lt.Registration.clickSignIn();
-        pages.knygos.lt.Registration.verifyAllRegistrationFields(
+        pages.knygosLt.Registration.clickSignIn();
+        pages.knygosLt.Registration.verifyAllRegistrationFields(
                 firstName,
                 lastName,
                 phoneNumber,
@@ -38,9 +38,9 @@ public class Registration extends BaseTest {
                 password,
                 confirmPassword
         );
-        pages.knygos.lt.Registration.clickConfirmPrivacyPolitics();
-        pages.knygos.lt.Registration.clickSubmitRegistration();
-        String actualResult = pages.knygos.lt.Registration.getRegistrationStatus();
+        pages.knygosLt.Registration.clickConfirmPrivacyPolitics();
+        pages.knygosLt.Registration.clickSubmitRegistration();
+        String actualResult = pages.knygosLt.Registration.getRegistrationStatus();
         Assert.assertEquals(actualResult, expectedResult);
     }
 }

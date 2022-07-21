@@ -1,4 +1,4 @@
-package tests.knygos.lt;
+package tests.knygosLt;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -11,12 +11,12 @@ public class Search extends BaseTest {
     @Override
     public void setUp() {
         super.setUp();
-        pages.knygos.lt.Search.open();
-        pages.knygos.lt.Search.acceptCookies();
+        pages.knygosLt.Search.open();
+        pages.knygosLt.Search.acceptCookies();
     }
 
     @DataProvider(name = "author")
-    public Object[][] radioButtonGenderDataProvider() {
+    public Object[][] keyWordForSearchDataProvider() {
         return new Object[][]{
                 {"Maironis"},
                 {"Rowling"}
@@ -25,9 +25,9 @@ public class Search extends BaseTest {
 
     @Test(dataProvider = "author")
     public static void testSearchFunction(String expectedResult) {
-        pages.knygos.lt.Search.sendKeysToSearchField(expectedResult);
-        pages.knygos.lt.Search.clickSearch();
-        String actualResult = pages.knygos.lt.Search.readSearchResult();
+        pages.knygosLt.Search.sendKeysToSearchField(expectedResult);
+        pages.knygosLt.Search.clickSearch();
+        String actualResult = pages.knygosLt.Search.readSearchResult();
         Assert.assertTrue(actualResult.contains(expectedResult));
     }
 }
