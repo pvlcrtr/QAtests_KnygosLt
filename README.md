@@ -128,7 +128,7 @@ Expected result: Product should be successfully added to a cart
 Actual result: As expected
 ```
 
-### 6. Add books wishlist
+### 7. Add books wishlist
 
 ```bash
 * LogIn

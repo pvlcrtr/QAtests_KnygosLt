@@ -16,7 +16,7 @@ public class WishList extends BaseTest {
 
     @Test
     public static void testAddToWishListFunction() {
-        String expectedResult = "Tegul laimi geriausias (knyga su...";
+        String expectedResult = "Kvinė";
 
         pages.knygos.lt.WishList.loginToUserAccount();
         pages.knygos.lt.WishList.selectBooksOnSale();

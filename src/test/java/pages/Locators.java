@@ -65,10 +65,10 @@ public class Locators {
         public static class WishList {
             public static By buttonBooksOnSale = By.xpath("//li[@class='menu-item akcijos']");
             public static By buttonBooksUpToThreeEur = By.xpath("(//*[@href='https://www.knygos.lt/lt/knygos/zanras/knygos-iki-2-99-eur------/'])[5]");
-            public static By buttonBooksWithDefects = By.xpath("(//*[@href='https://www.knygos.lt/lt/knygos/zanras/knygos-su-defektais----/'])[1]");
+            public static By buttonBooksWithDefects = By.xpath("(//*[@href='https://www.knygos.lt/lt/knygos/zanras/2-99-eur-ir-pigiau-grozines-knygos---/'])[2]");
             public static By buttonInStock = By.xpath("(//input[@name=\"form_filterlist[instock]\"])[1]");
-            public static By buttonSelectBook = By.xpath("//*[@alt=\"Tegul laimi geriausias (knyga su defektais)\"]");
-            public static By buttonAddBookToWishList = By.xpath("(//*[@onclick=\"add_to_wishlist(3750589, this);\"])[2]");
+            public static By buttonSelectBook = By.xpath("//*[@title='Kvinė' and @class='product-link']");
+            public static By buttonAddBookToWishList = By.xpath("(//*[@onclick=\"add_to_wishlist(2661007, this);\"])[2]");
             public static By buttonUserAccount = By.xpath("(//*[@class=\"text d-none d-lg-block\"])[1]");
             public static By buttonOpenWishList = By.xpath("(//*[@href=\"https://www.knygos.lt/user/wishlist\"])[3]\n");
             public static By fieldBookName = By.xpath("//span[@class=\"book-properties book-title\"]");
