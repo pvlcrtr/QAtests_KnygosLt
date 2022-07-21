@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Reformat README.md, Add new test cases">
+    <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Repair test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/WishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/WishList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <recent name="C:\Users\Pavel Duniak\JavaProjektai\BaigiamasisKnygoslt" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml">
+  <component name="RunManager" selected="TestNG.WishList.testAddToWishListFunction">
     <configuration name="C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -131,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
         <item itemvalue="TestNG.WishList.testAddToWishListFunction" />
+        <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
         <item itemvalue="TestNG.Registration.testCreateNewAccountWithExistingEmail" />
         <item itemvalue="TestNG.Registration.testCreateNewAccountWithNonExistingEmail" />
         <item itemvalue="TestNG.LogOut.testLogout" />
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658355286654</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Repair test">
+      <created>1658388982229</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658388982229</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +261,7 @@
     <MESSAGE value="Add Logout and Reformat code" />
     <MESSAGE value="Reformat README.md" />
     <MESSAGE value="Reformat README.md, Add new test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat README.md, Add new test cases" />
+    <MESSAGE value="Repair test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repair test" />
   </component>
 </project>

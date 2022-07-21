@@ -64,7 +64,7 @@ public class Locators {
 
         public static class WishList {
             public static By buttonBooksOnSale = By.xpath("//li[@class='menu-item akcijos']");
-            public static By buttonBooksUpToThreeEur = By.xpath("(//*[@href='https://www.knygos.lt/lt/knygos/zanras/knygos-iki-2-99-eur------/'])[5]");
+            public static By buttonBooksUpToThreeEur = By.xpath("(//*[@href='https://www.knygos.lt/lt/knygos/zanras/knygos-iki-2-99-eur------/'])[4]");
             public static By buttonBooksWithDefects = By.xpath("(//*[@href='https://www.knygos.lt/lt/knygos/zanras/2-99-eur-ir-pigiau-grozines-knygos---/'])[2]");
             public static By buttonInStock = By.xpath("(//input[@name=\"form_filterlist[instock]\"])[1]");
             public static By buttonSelectBook = By.xpath("//*[@title='Kvinė' and @class='product-link']");
