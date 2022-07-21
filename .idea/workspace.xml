@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bf20ea18-99d6-4b8c-bf59-7e264c123cb9" name="Changes" comment="Repair test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/knygos/lt/LogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/LogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/knygos/lt/LogOut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="C:\Users\Pavel Duniak\JavaProjektai\BaigiamasisKnygoslt" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WishList.testAddToWishListFunction">
+  <component name="RunManager" selected="TestNG.LogOut.testLogout">
     <configuration name="C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BaigiamasisKnygoslt" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LogOut.testLogout" />
         <item itemvalue="TestNG.WishList.testAddToWishListFunction" />
         <item itemvalue="TestNG.C:/Users/Pavel Duniak/JavaProjektai/BaigiamasisKnygoslt/TestNG.xml" />
         <item itemvalue="TestNG.Registration.testCreateNewAccountWithExistingEmail" />
         <item itemvalue="TestNG.Registration.testCreateNewAccountWithNonExistingEmail" />
-        <item itemvalue="TestNG.LogOut.testLogout" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658388982229</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Repair test">
+      <created>1658389657828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658389657828</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

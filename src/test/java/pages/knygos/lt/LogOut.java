@@ -32,5 +32,8 @@ public class LogOut {
     public static void clickLogout() {
         Common.clickElementByAction(Locators.knygos.Logout.buttonLogout);
     }
+    public static String getLogOutStatus() {
+        return Common.getUrl();
+    }
 
 }

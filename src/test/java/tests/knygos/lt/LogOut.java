@@ -1,5 +1,6 @@
 package tests.knygos.lt;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import tests.BaseTest;
@@ -24,5 +25,7 @@ public class LogOut extends BaseTest {
         pages.knygos.lt.LogOut.clickLogIn();
         pages.knygos.lt.LogOut.clickUserAccount();
         pages.knygos.lt.LogOut.clickLogout();
+        String actualResult = pages.knygos.lt.LogOut.getLogOutStatus();
+        Assert.assertEquals(actualResult, expectedResult);
     }
 }
