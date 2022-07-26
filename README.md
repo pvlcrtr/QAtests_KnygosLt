@@ -50,7 +50,7 @@ Expected result: User shouldn not create account with invalid data
 Actual result: As expected
 ```
 
-### 2. Login with valid and invalid data field
+### 2. Login with valid and invalid data 
 
 #### A. Login with valid data
 
@@ -78,7 +78,7 @@ Expected result: User should not login
 Actual result: As expected
 ```
 
-### 3. Logout
+### 3. Test "Logout" function 
 
 ```bash
 * Click "Login" button
@@ -93,7 +93,7 @@ Expected result: User should successfully logout
 Actual result: As expected
 ```
 
-### 4. Search function
+### 4. Test "Search" function by entering a text to search field
 
 ```bash
 * Enter text to search field
@@ -104,7 +104,7 @@ Expected result: Search function should search by given parameters
 Actual result: As expected
 ```
 
-### 5. Search by categories
+### 5. Test "Search" function by selecting categories from list
 
 ```bash
 * Click "Top books" button
@@ -115,7 +115,7 @@ Expected result: Search function should successfully work by set filters
 Actual result: As expected
 ```
 
-### 6. Add books to cart
+### 6. Test "Add books to cart" function 
 
 ```bash
 * Enter text to search field
@@ -130,7 +130,7 @@ Expected result: Product should be successfully added to a cart
 Actual result: As expected
 ```
 
-### 7. Test "add books to wishlist" function
+### 7. Test "Add books to wishlist" function
 
 ```bash
 * LogIn to existing account
